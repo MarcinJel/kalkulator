@@ -16,6 +16,10 @@ namespace kalkulatormilion
                 Console.WriteLine("1. Dodawanie");
                 Console.WriteLine("2. odejmowanie");
                 int menuOption = Convert.ToInt32(Console.ReadLine());
+
+                if (menuOption == 0)
+                    break;
+
             }
         }
     }
